@@ -2,14 +2,14 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "./Backend/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd ./Backend && node index.js",
     "build" : "npm i",
    "server" : "nodemon index.js",
-    "client" : "npm start --prefix ./client",
-    "dev" : "concurrently \"npm start \" \"npm run client\""
+    "client" : "npm start --prefix ./client"
+   
 
 
 
